@@ -9,12 +9,36 @@ body {
 
 .main {
     background-color: black;
-    height: 100px;
+    height: 1200px;
 }
 
 .content {
+    display: inline-block;
     background-color: azure;
     width: 70%;
     height: 100%;
     margin: auto;
+}
+
+.ads {
+    width: 15%;
+    vertical-align: top;
+}
+
+.left-ad {
+    float: left;
+}
+
+.right-ad {
+    float: right;
+}
+
+.avatars {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.avatar {
+    width: 25%;
 }
