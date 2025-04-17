@@ -92,3 +92,18 @@ body {
 .avatar {
     width: 25%;
 }
+
+.reflection-title {
+    display: inline;
+}
+
+.reflection {
+    margin: 40px 15px 15px 15px;
+    font-family: "FangSong", "仿宋", serif, "Impact", sans-serif;
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.inline {
+    display: inline;
+}
