@@ -4,7 +4,13 @@ body {
 
 .title {
     background-color: aquamarine;
+    color: rgb(250, 0, 0);
     margin: 0;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "FangSong", "仿宋", serif, "Impact", sans-serif;
+    border: 5px ridge white;
 }
 
 .main {
