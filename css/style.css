@@ -85,6 +85,10 @@ body {
     width: 25%;
 }
 
+.avatars:hover {
+    opacity: 30%;
+}
+
 .reflection-title {
     display: inline;
 }
