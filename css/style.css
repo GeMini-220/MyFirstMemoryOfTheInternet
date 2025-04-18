@@ -52,15 +52,16 @@ body {
 }
 
 .main {
+    display: flex;
     background-color: black;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .content {
-    display: inline-block;
     background-color: azure;
     width: 70%;
     height: 100%;
-    margin: auto;
 }
 
 .footer {
@@ -70,16 +71,8 @@ body {
 }
 
 .ads {
-    width: 100px;
+    width: 15%;
     vertical-align: top;
-}
-
-.left-ad {
-    float: left;
-}
-
-.right-ad {
-    float: right;
 }
 
 .avatars {
