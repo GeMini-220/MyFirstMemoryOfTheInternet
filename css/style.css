@@ -70,17 +70,17 @@ body {
 }
 
 .ads {
-    width: 14%;
+    width: 15%;
     vertical-align: top;
 }
 
-/* .left-ad {
+.left-ad {
     float: left;
-} */
+}
 
-/* .right-ad {
+.right-ad {
     float: right;
-} */
+}
 
 .avatars {
     position: fixed;
