@@ -1,3 +1,8 @@
+@font-face {
+    font-family: custom-font;
+    src: url("../assets/fonts/Russed.ttf");
+}
+
 @keyframes rainbow {
     0% { color: red; }
     25% { color: orange; }
@@ -128,6 +133,29 @@ body {
 .random {
     color: red;
     font-size: 20px;
+}
+
+.randomtexts {
+    font-family: custom-font, sans-serif;
+    font-size: 30px;
+}
+
+.randomtext1 {
+    font-size: 7px;
+}
+
+.randomtext2 {
+    font-size: 34vw
+}
+
+.randomtext3 {
+    font-size: 5vw;
+    background-image: url(../assets/images/2000s-ad-1.jpg);
+}
+
+.randomtext4 {
+    font-size: 200%;
+    background-color: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
 .ascii-art {
