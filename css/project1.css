@@ -1,0 +1,105 @@
+@keyframes rainbow {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: yellow; }
+    75% { color: green; }
+    100% { color: blue; }
+}
+
+@keyframes blink {
+    50% { color: transparent }
+}
+
+.rainbow {
+    animation: rainbow 2s linear infinite;
+}
+
+.blink {
+    animation: blink 0.7s step-end infinite;
+}
+
+body {
+    margin: 0;
+}
+
+.quote {
+    font-family: "FangSong", "仿宋", serif, "Impact", sans-serif;
+    padding-left: 15px;
+}
+
+.glow-text {
+    color: #fff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.gradient-bg {
+    background: linear-gradient(to right, #f00, #0f0, rgb(86, 86, 255));
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.title {
+    background-color: aquamarine;
+    color: rgb(250, 0, 0);
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "FangSong", "仿宋", serif, "Impact", sans-serif;
+    border: 5px ridge white;
+}
+
+.main {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content {
+    background-color: azure;
+    width: 70%;
+    height: 100%;
+}
+
+.footer {
+    border: 5px double aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 40%;
+}
+
+.ads {
+    width: 15%;
+    vertical-align: top;
+}
+
+.avatars {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.avatar {
+    width: 25%;
+}
+
+.avatars:hover {
+    opacity: 30%;
+}
+
+.reflection-title {
+    display: inline;
+}
+
+.reflection {
+    margin: 40px 15px 15px 15px;
+    font-family: "FangSong", "仿宋", serif, "Impact", sans-serif;
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.inline {
+    display: inline;
+}
