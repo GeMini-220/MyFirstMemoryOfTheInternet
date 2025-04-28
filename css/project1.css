@@ -85,7 +85,7 @@ body {
     width: 25%;
 }
 
-.avatars:hover {
+.avatar:hover {
     opacity: 30%;
 }
 
@@ -95,6 +95,13 @@ body {
     left: 20px;
     width: 20vw;
     height: 11vw;
+}
+
+.back {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    background-color: red;
 }
 
 .newyearvid {
