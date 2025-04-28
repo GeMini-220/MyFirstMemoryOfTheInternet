@@ -59,7 +59,8 @@ body {
 }
 
 .content {
-    background-color: azure;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     width: 70%;
     height: 100%;
 }
@@ -122,4 +123,14 @@ body {
 
 .inline {
     display: inline;
+}
+
+.random {
+    color: red;
+    font-size: 20px;
+}
+
+.ascii-art {
+    color: white;
+    font-size: 10px;
 }
